@@ -1,0 +1,67 @@
+body{
+display: flex;
+margin:0;
+padding: 0;
+background-image: url(lock.jpeg);
+}
+h3,p, button, input{
+font-family: 'Dancing Script', cursive;
+}
+.container{
+padding-left: 60px;
+position: relative;
+width: 550px;
+height: 510px;
+left: 62px;
+top: 64px;
+background: rgba(31, 41, 55,0.99);
+color: rgba(255, 255, 255, 1);
+margin:0 auto;
+}
+h3{
+font-weight: 800;
+font-size: 40px;
+line-height: 40px;
+letter-spacing: -0.025em;
+}
+P{
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+margin-top: -20px;
+}
+button{
+width: 191px;
+height: 42px;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+background: #10B981;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 9px 17px 9px 15px;
+margin-top: 50px;
+}
+input{
+width: 211px;
+height: 39px;
+left: 52px;
+background: #273549;
+border-radius: 6px;
+color: rgba(85, 249, 145, 1);
+font-weight: 500;
+font-size: 16px;
+line-height: 32px;
+text-align: center;
+margin-top: 40px;
+}
+#inp2{
+margin-left: 20px;
+}
+.line{
+width: 470px;
+margin-top: 30px;
+border: 1px solid #2F3E53;
+}
